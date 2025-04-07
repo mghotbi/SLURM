@@ -6,7 +6,9 @@ Simple Linux Utility for Resource Management
 #### Use nano job_script.sh
 
 Create a file like job_script.sh with the following content:
+
 Example 1
+
 ```bash
 #!/bin/bash
 #SBATCH --job-name=my_job_name         # Job name
