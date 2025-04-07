@@ -57,6 +57,9 @@ scontrol requeue <job_id>       # Requeue a job
   <img src="https://github.com/user-attachments/assets/f38eab3a-0e04-4e45-9ff8-784b461f8513" alt="SLURM Cheatsheet Part 2" width="49%" />
 </p>
 
-![Pipe it](https://github.com/user-attachments/assets/1955b957-254d-47ae-b653-41da553e29a9)
 
-![Recap](https://github.com/user-attachments/assets/007837e0-2e82-43d9-a897-c41af0dfcf19)
+### Pipe it
+
+![Pipe it](https://github.com/user-attachments/assets/b9419ae1-ddda-47e4-aaba-75de3f73108d)
+
+![Recap](https://github.com/user-attachments/assets/8b1533ea-b2f5-4c0f-8fd1-d4aa306f90ce)
