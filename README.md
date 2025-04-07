@@ -50,8 +50,13 @@ scancel <job_id>                # Cancel a job
 scontrol requeue <job_id>       # Requeue a job
 
 ```
+### cheatsheet
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/79de0224-d0cf-4d41-86ef-a73aa378d36d" alt="SLURM Cheatsheet Part 1" width="49%" />
   <img src="https://github.com/user-attachments/assets/f38eab3a-0e04-4e45-9ff8-784b461f8513" alt="SLURM Cheatsheet Part 2" width="49%" />
 </p>
+
+![Pipe it](https://github.com/user-attachments/assets/1955b957-254d-47ae-b653-41da553e29a9)
+
+![Recap](https://github.com/user-attachments/assets/007837e0-2e82-43d9-a897-c41af0dfcf19)
