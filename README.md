@@ -87,4 +87,4 @@ scontrol requeue <job_id>       # Requeue a job
 
 ![Pipe it](https://github.com/user-attachments/assets/b9419ae1-ddda-47e4-aaba-75de3f73108d)
 
-![Recap](https://github.com/user-attachments/assets/8b1533ea-b2f5-4c0f-8fd1-d4aa306f90ce)
+![Recap](https://github.com/user-attachments/assets/7b56ff76-8433-48dd-8779-7b92f237c84f)
