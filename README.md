@@ -31,3 +31,27 @@ sbatch job_script.sh
 ### Shebang
 
 ![Shebang](https://github.com/user-attachments/assets/23ef6da0-7bd1-434d-9d3d-38fc2f8d5564)
+
+
+### Use squeue to check your job status:
+
+```bash
+squeue --user=$USER              # Show jobs for current user
+squeue --job <job_id>           # Show specific job
+squeue --partition=standard     # Filter by partition
+squeue --format="%.18i %.9P %.8j %.8u %.2t %.10M %.6D %R"  # Custom format
+
+```
+
+### Cancel or Requeue Jobs
+
+```bash
+scancel <job_id>                # Cancel a job
+scontrol requeue <job_id>       # Requeue a job
+
+```
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/79de0224-d0cf-4d41-86ef-a73aa378d36d" alt="SLURM Cheatsheet Part 1" width="49%" />
+  <img src="https://github.com/user-attachments/assets/f38eab3a-0e04-4e45-9ff8-784b461f8513" alt="SLURM Cheatsheet Part 2" width="49%" />
+</p>
