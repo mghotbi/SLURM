@@ -1,9 +1,9 @@
-# SLURM
+## SLURM
 Simple Linux Utility for Resource Management
 
 ![SLURM](https://github.com/user-attachments/assets/8a84031f-20df-4890-8254-d92150c1d439)
 
-Use nano job_script.sh
+#### Use nano job_script.sh
 
 Create a file like job_script.sh with the following content:
 
@@ -28,6 +28,6 @@ python my_script.py
 sbatch job_script.sh
 ```
 
-Shebang
+### Shebang
 
-[Shebang](https://github.com/user-attachments/files/19636716/SLURM.pptx)
+![Shebang](https://github.com/user-attachments/assets/23ef6da0-7bd1-434d-9d3d-38fc2f8d5564)
