@@ -6,7 +6,7 @@ Simple Linux Utility for Resource Management
 #### Use nano job_script.sh
 
 Create a file like job_script.sh with the following content:
-
+Example 1
 ```bash
 #!/bin/bash
 #SBATCH --job-name=my_job_name         # Job name
@@ -26,6 +26,31 @@ python my_script.py
 
 
 sbatch job_script.sh
+```
+
+Example 2
+
+```bash
+#!/bin/bash
+
+# ----------------SLURM Parameters-------------------------
+#SBATCH -p research-bigmem                   # Partition name
+#SBATCH --ntasks=30                          # Number of tasks
+#SBATCH --mem=250G                           # Memory allocation
+#SBATCH --nodes=1                            # Number of nodes
+#SBATCH --job-name=assignment                # Job name
+#SBATCH --chdir="/home/mghotbi/JITSWF25" #working directory
+#SBATCH --time=80:00:00                      # Maximum runtime
+#SBATCH --output=assignment.%j.out           # Output log file
+#SBATCH --error=assignment.%j.err            # Error log file
+
+# ----------------Load Modules-----------------------------
+# Activate QIIME2 environment (specific to MTSU HPC)
+source activate qiime2-amplicon-2023.9 && \
+
+# ---------------- Taxonomy assignment ----------------------
+
+
 ```
 
 ### Shebang
