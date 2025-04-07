@@ -4,6 +4,7 @@ Simple Linux Utility for Resource Management
 ![SLURM](https://github.com/user-attachments/assets/8a84031f-20df-4890-8254-d92150c1d439)
 
 Use nano job_script.sh
+
 Create a file like job_script.sh with the following content:
 
 ```bash
