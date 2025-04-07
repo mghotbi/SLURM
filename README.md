@@ -28,4 +28,6 @@ python my_script.py
 sbatch job_script.sh
 ```
 
+Shebang
 
+[Shebang](https://github.com/user-attachments/files/19636716/SLURM.pptx)
