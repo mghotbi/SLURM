@@ -26,8 +26,12 @@ module load python/3.9
 #your script
 python my_script.py
 
+```
+
+```bash
 
 sbatch job_script.sh
+
 ```
 
 Example 2
